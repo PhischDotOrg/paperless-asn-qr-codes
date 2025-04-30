@@ -107,3 +107,6 @@ def main():
         count = args.pages * label.across * label.down - label.position
     label.render(render, count)
     label.close()
+
+if __name__ == "__main__":
+    main()
